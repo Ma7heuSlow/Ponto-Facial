@@ -1,0 +1,22 @@
+# Dados biométricos e registros de ponto (LGPD: nunca versionar)
+dados/
+*.db
+
+# Configuração local (contém a senha do administrador)
+config.json
+
+# Modelos ONNX (baixados automaticamente na primeira execução)
+modelos/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Relatórios exportados
+*.xlsx
+
+# Sistema
+.DS_Store
+Thumbs.db
